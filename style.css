@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111; /* Темный фон */
+    color: #fff; /* Белый текст */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-family: gotham;
+    font-size: 2em;
+    margin-bottom: -10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.description {
+  font-size: 1.0em;
+  padding-bottom: 50;
+}
+
+        .button {
+            display: inline-block;
+            padding: 5px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 1px solid #3498db;
+            color: #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s, border 0.3s;
+        }
+
+        .button:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+.by {
+        font-size: 12px;
+        position: fixed;
+        bottom: 0;
+        width: 95%;
+        text-align: right;
+        padding: 0px; 
+        transition: background-color 0.3s, color 0.3s, border 0.3s;
+    
+}
+    .fixed-top-left {
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .lang_button {
+      display: inline-block;
+      outline: none;
+      text-decoration: none;
+      color: #fff;
+      background-color: #111;
+      border: none;
+      padding: 2px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+    }
+
+    /* Стили для темной темы */
+    body.dark-theme {
+      background-color: #eee;
+      color: #222;
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+    }
+
+    #themeSelector.dark-theme {
+      background-color: #292929;
+      color: #222;
+      border: 2px solid #4caf50;
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+    }
+
+    .by.dark-theme {
+      color: #222;
+    }
+
+    .message-container.dark-theme {
+      color: #222;
+    }
+
+.lang_button.dark-theme {
+      color: #222;
+      background-color: #eee;
+}
+
+#themeSelector.dark-theme {
+      display: inline-block;
+      outline: none;
+      text-decoration: none;
+      color: #222;
+      background-color: #eee;
+      border: none;
+      padding: 2px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+    }
+
+.fixed-top-right {
+      position: fixed;
+      top: 0;
+      right: 0;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+#themeSelector {
+      display: inline-block;
+      outline: none;
+      text-decoration: none;
+      color: #fff;
+      background-color: #111;
+      border: none;
+      padding: 2px;
+      border-radius: 5px;
+      transition: background-color 0.3s, color 0.3s, border 0.3s;
+    }
